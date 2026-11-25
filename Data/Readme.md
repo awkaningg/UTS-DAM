@@ -18,15 +18,13 @@ clementincmharum@gmail.com
 
 #### 2. Sumber Data & URL
 
-Seluruh data yang dikumpulkan berfokus pada informasi kebudayaan, berita, dan koleksi museum di Indonesia. Pengecekan kepatuhan robots.txt telah dilakukan menggunakan identitas email pribadi dan menghasilkan status **True** (diizinkan untuk diakses). 
+Seluruh data yang dikumpulkan berfokus pada informasi kebudayaan, berita, dan koleksi museum di Indonesia. Pengecekan kepatuhan robots.txt telah dilakukan menggunakan identitas email pribadi dan menghasilkan status **True** (diizinkan untuk diakses).
 
-NoMetode AkuisisiNama Sumber DataURL SumberFormat RawFormat ProcessStatus Etika (robots.txt)
-**1**
-**Download**Dataset Koleksi Museum Nasional Indonesiahttps://museumnasional.or.id/.xlsx .csv (Tabel)Resmi / Terbuka
-**2**
-**API**WordPress REST API - Museum Nasional Indonesiahttps://www.museumnasional.or.id/wp-json/wp/v2/posts.json.csv & .json (Tabel)True (Diizinkan)
-**3**
-**Scraping**Website Resmi Museum Nasional Indonesiahttps://www.museumnasional.or.id/category/berita/.html.csv & .html (Tabel)True (Diizinkan)
+| No | Metode Akuisisi | Nama Sumber Data | URL Sumber | Format Raw | Format Process | Status Etika (robots.txt) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | **Download** | Dataset Koleksi Museum Nasional Indonesia | https://museumnasional.or.id | .xlsx | .csv (Tabel) | Resmi / Terbuka |
+| **2** | **API** | WordPress REST API - Museum Nasional Indonesia | https://museumnasional.or.id | .json | .csv & .json (Tabel) | True (Diizinkan) |
+| **3** | **Scraping** | Website Resmi Museum Nasional Indonesia | https://museumnasional.or.id | .html | .csv & .html (Tabel) | True (Diizinkan) |
 
 #### 3. Tujuan (*Goal*) Proyek
 
@@ -36,14 +34,6 @@ NoMetode AkuisisiNama Sumber DataURL SumberFormat RawFormat ProcessStatus Etika 
 4. **Data Integration:** Menggabungkan seluruh dataset yang telah dibersihkan dari ketiga sumber ke dalam satu tabel terpadu (**Data Gabungan**) untuk siap digunakan pada tahap analisis selanjutnya.
 
 #### 4. Struktur Repositori
-
-Tampilkan Kode
-
-Sembunyikan Kode
-
-Download diagram SVG
-
-ASCII
 
 UTS-DAM/
 ├── Data/

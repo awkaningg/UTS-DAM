@@ -22,7 +22,7 @@ Seluruh data yang dikumpulkan berfokus pada informasi kebudayaan, berita, dan ko
 
 NoMetode AkuisisiNama Sumber DataURL SumberFormat RawFormat ProcessStatus Etika (robots.txt)
 **1**
-**Download**Dataset Koleksi Museum Nasional Indonesiahttps://museumnasional.or.id/ .csv / .xlsx.csv (Tabel)Resmi / Terbuka
+**Download**Dataset Koleksi Museum Nasional Indonesiahttps://museumnasional.or.id/.xlsx .csv (Tabel)Resmi / Terbuka
 **2**
 **API**WordPress REST API - Museum Nasional Indonesiahttps://www.museumnasional.or.id/wp-json/wp/v2/posts.json.csv & .json (Tabel)True (Diizinkan)
 **3**

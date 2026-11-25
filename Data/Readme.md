@@ -35,6 +35,7 @@ Seluruh data yang dikumpulkan berfokus pada informasi kebudayaan, berita, dan ko
 
 #### 4. Struktur Repositori
 
+```text
 UTS-DAM/
 ├── Data/
 │   ├── Raw/                         # Menyimpan data mentah asli dari 3 sumber
@@ -50,4 +51,4 @@ UTS-DAM/
 ├── API.ipynb                        # Notebook akuisisi & pembersihan data REST API
 ├── Scrapping.ipynb                  # Notebook cek etika robots.txt & scraping HTML
 └── README.md                        # Dokumentasi utama proyek UTS
-
+```

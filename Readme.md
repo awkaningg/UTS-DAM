@@ -30,15 +30,15 @@ Seluruh data yang dikumpulkan berfokus pada informasi kebudayaan, berita, dan ko
 
 | No | Aspek | Status (Ya/Tidak/NA) | Bukti / Catatan |
 | :--- | :--- | :---: | :--- |
-| **0** | Sumber data dan URL dicantumkan | **Ya** | Sumber berasal dari website resmi Museum Nasional (https://museumnasional.or.id). URL dicantumkan di metadata. |
-| **1** | Lisensi data diperiksa dan dicatat | **Ya** | Data bersifat publik (artikel berita website resmi pemerintah/museum). Diperuntukkan untuk tujuan akademis/studi. |
-| **2** | robots.txt / Terms of Service diperiksa | **Ya** | Pengecekan robots.txt telah dilakukan menggunakan RobotFileParser. Hasil menunjukkan akses diizinkan (`boleh_diakses: True`). |
-| **3** | Kolom PII diidentifikasi | **Ya** | Kolom PII (Personally Identifiable Information) dianalisis. Tidak ditemukan data personal sensitif pada artikel publik. |
-| **4** | PII dihapus, di-mask, atau di-pseudonimisasi | **Ya** | Identitas penulis artikel yang berupa nama staf umum tidak diproses lebih jauh untuk menjaga privasi. |
-| **5** | Prinsip minimalisasi data diterapkan | **Ya** | Hanya kolom penting yang diambil: ID, Tanggal Terbit, Judul, dan URL untuk menghindari penumpukan data tidak perlu. |
-| **6** | Potensi bias sampel dianalisis | **Ya** | Bias sampel dianalisis: data terbatas pada artikel publikasi online Museum Nasional saja, tidak mewakili seluruh arsip fisik. |
-| **7** | Tujuan penggunaan data dinyatakan eksplisit | **Ya** | Pengambilan data dilakukan khusus untuk keperluan analisis data dan tugas akademik (UTS DAM). |
-| **8** | Rencana retensi dan penghapusan data ada | **Ya** | Data disimpan secara lokal di repositori proyek dan akan dihapus setelah evaluasi akademik selesai. |
+| **1** | Sumber data dan URL dicantumkan | **Ya** | Sumber berasal dari website resmi Museum Nasional (https://museumnasional.or.id). URL dicantumkan di metadata. |
+| **2** | Lisensi data diperiksa dan dicatat | **Ya** | Data bersifat publik (artikel berita website resmi pemerintah/museum). Diperuntukkan untuk tujuan akademis/studi. |
+| **3** | robots.txt / Terms of Service diperiksa | **Ya** | Pengecekan robots.txt telah dilakukan menggunakan RobotFileParser. Hasil menunjukkan akses diizinkan (`boleh_diakses: True`). |
+| **4** | Kolom PII diidentifikasi | **Ya** | Kolom PII (Personally Identifiable Information) dianalisis. Tidak ditemukan data personal sensitif pada artikel publik. |
+| **5** | PII dihapus, di-mask, atau di-pseudonimisasi | **Ya** | Identitas penulis artikel yang berupa nama staf umum tidak diproses lebih jauh untuk menjaga privasi. |
+| **6** | Prinsip minimalisasi data diterapkan | **Ya** | Hanya kolom penting yang diambil: ID, Tanggal Terbit, Judul, dan URL untuk menghindari penumpukan data tidak perlu. |
+| **7** | Potensi bias sampel dianalisis | **Ya** | Bias sampel dianalisis: data terbatas pada artikel publikasi online Museum Nasional saja, tidak mewakili seluruh arsip fisik. |
+| **8** | Tujuan penggunaan data dinyatakan eksplisit | **Ya** | Pengambilan data dilakukan khusus untuk keperluan analisis data dan tugas akademik (UTS DAM). |
+| **9** | Rencana retensi dan penghapusan data ada | **Ya** | Data disimpan secara lokal di repositori proyek dan akan dihapus setelah evaluasi akademik selesai. |
 
 
 #### 4. Tujuan (*Goal*) Proyek

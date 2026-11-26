@@ -50,17 +50,19 @@ Seluruh data yang dikumpulkan berfokus pada informasi kebudayaan, berita, dan ko
 ```text
 UTS-DAM/
 ├── Data/
-│   ├── Raw/                         # Menyimpan data mentah asli dari 3 sumber
-│   │   ├── data_museum_raw.csv
-│   │   ├── api_museum_raw.json
-│   │   └── scraping_museum_raw.html
-│   └── Process/                     # Menyimpan data bersih berbentuk tabel & gabungan
-│       ├── download_museum_process.csv
-│       ├── api_museum_process.csv
-│       ├── scraping_museum_process.html
-│       └── data_gabungan_process.csv
-├── Download_CSV.ipynb               # Notebook proses pembersihan data CSV/Excel
+│   ├── Process/                     # Menyimpan data bersih berbentuk tabel & gabungan
+│   │   ├── api_museum_process.csv
+│   │   ├── api_museum_process.json
+│   │   ├── data_gabungan_process.csv
+│   │   ├── download_museum_process.csv
+│   │   ├── scraping_museum_process.csv
+│   │   └── scraping_museum_process.html
+│   └── Raw/                         # Menyimpan data mentah asli dari 3 sumber
+│       ├── api_museum_raw.json
+│       ├── data_museum_raw.csv
+│       └── scraping_museum_raw.html
 ├── API.ipynb                        # Notebook akuisisi & pembersihan data REST API
-├── Scrapping.ipynb                  # Notebook pengecekan izin scrapping (robots.txt) dan data ethics checklist
-└── README.md                        # Dokumentasi utama proyek UTS
+├── Download_CSV.ipynb               # Notebook proses pembersihan data CSV/Excel
+├── Readme.md                        # Dokumentasi utama proyek UTS
+└── Scraping.ipynb                   # Notebook pengecekan izin scraping (robots.txt) dan data ethics checklist
 ```

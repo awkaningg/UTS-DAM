@@ -4,17 +4,14 @@ Repositori ini disusun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah **
 
 #### 1. Data Diri Mahasiswa
 
-KeteranganDetail
-****Nama Lengkap****
-Clementin Christianingsi Mune Harum
-****NIM****
-2501010363
-****Kelas****
-F
-****Program Studi****
-Informatika - Manajemen Data Analisis
-****Email Pribadi****
-clementincmharum@gmail.com
+| Keterangan | Detail |
+| :--- | :--- |
+| **Nama Lengkap** | Clementin Christianingsi Mune Harum |
+| **NIM** | 2501010363 |
+| **Kelas** | F |
+| **Program Studi** | Informatika - Manajemen Data Analisis |
+| **Email Pribadi** | clementincmharum@gmail.com |
+
 
 #### 2. Sumber Data & URL
 

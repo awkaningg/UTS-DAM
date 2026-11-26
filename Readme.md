@@ -64,6 +64,6 @@ UTS-DAM/
 │       └── data_gabungan_process.csv
 ├── Download_CSV.ipynb               # Notebook proses pembersihan data CSV/Excel
 ├── API.ipynb                        # Notebook akuisisi & pembersihan data REST API
-├── Scrapping.ipynb                  # Notebook cek etika dan robots.txt
+├── Scrapping.ipynb                  # Notebook pengecekan izin scrapping (robots.txt) dan data ethics checklist
 └── README.md                        # Dokumentasi utama proyek UTS
 ```
